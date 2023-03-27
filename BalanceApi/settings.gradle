@@ -1,0 +1,5 @@
+rootProject.name = 'balanceapi'
+
+include 'domain'
+include 'webapp'
+

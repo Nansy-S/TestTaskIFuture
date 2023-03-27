@@ -1,0 +1,65 @@
+databaseChangeLog:
+  - changeSet:
+      id: insertDefaultData
+      author: aprokopovich
+      changes:
+        - sql:
+            sql: insert into bank_account (id, balance) values (1, 10)
+        - sql:
+            sql: insert into bank_account (id, balance) values (2, 20)
+        - sql:
+            sql: insert into bank_account (id, balance) values (3, 30)
+        - sql:
+            sql: insert into bank_account (id, balance) values (4, 40)
+        - sql:
+            sql: insert into bank_account (id, balance) values (5, 50)
+        - sql:
+            sql: insert into bank_account (id, balance) values (6, 60)
+        - sql:
+            sql: insert into bank_account (id, balance) values (7, 70)
+        - sql:
+            sql: insert into bank_account (id, balance) values (8, 80)
+        - sql:
+            sql: insert into bank_account (id, balance) values (9, 90)
+        - sql:
+            sql: insert into bank_account (id, balance) values (10, 100)
+        - sql:
+            sql: insert into bank_account (id, balance) values (11, 10)
+        - sql:
+            sql: insert into bank_account (id, balance) values (12, 20)
+        - sql:
+            sql: insert into bank_account (id, balance) values (13, 30)
+        - sql:
+            sql: insert into bank_account (id, balance) values (14, 40)
+        - sql:
+            sql: insert into bank_account (id, balance) values (15, 50)
+        - sql:
+            sql: insert into bank_account (id, balance) values (16, 60)
+        - sql:
+            sql: insert into bank_account (id, balance) values (17, 70)
+        - sql:
+            sql: insert into bank_account (id, balance) values (18, 80)
+        - sql:
+            sql: insert into bank_account (id, balance) values (19, 90)
+        - sql:
+            sql: insert into bank_account (id, balance) values (20, 100)
+        - sql:
+            sql: insert into bank_account (id, balance) values (21, 10)
+        - sql:
+            sql: insert into bank_account (id, balance) values (22, 20)
+        - sql:
+            sql: insert into bank_account (id, balance) values (23, 30)
+        - sql:
+            sql: insert into bank_account (id, balance) values (24, 40)
+        - sql:
+            sql: insert into bank_account (id, balance) values (25, 50)
+        - sql:
+            sql: insert into bank_account (id, balance) values (26, 60)
+        - sql:
+            sql: insert into bank_account (id, balance) values (27, 70)
+        - sql:
+            sql: insert into bank_account (id, balance) values (28, 80)
+        - sql:
+            sql: insert into bank_account (id, balance) values (29, 90)
+        - sql:
+            sql: insert into bank_account (id, balance) values (30, 100)

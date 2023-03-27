@@ -1,0 +1,19 @@
+databaseChangeLog:
+  - changeSet:
+     id: createTable
+     author: aprokopovich
+     changes:
+        - createTable:
+           schemaName: public
+           tableName: bank_account
+           columns:
+              - column:
+                 name: id
+                 type: bigint
+                 constraints:
+                    nullable: false
+              - column:
+                 name: balance
+                 type: bigint
+                 constraints:
+                    nullable: false
